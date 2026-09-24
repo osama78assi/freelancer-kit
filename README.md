@@ -131,7 +131,7 @@ npm run build            # outputs to frontend/dist
 # e.g. on Windows: copy dist\* ..\backend\modules\root\static\
 ```
 
-Then follow the "Start the application" steps above and `npm run build` in the backend again so the latest assets are packaged into `dist/`.
+Then follow the "Start the application" steps above and `npm run build` in the backend again so the latest assets are packaged into `dist/`. In case you have updated the HTML file then replace that with the one that is exist in `templates` folder
 
 ### Running in production
 
