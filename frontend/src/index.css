@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+@theme {
+    --color-primary: #2284a1;
+    --color-primary-white: #f0f1eb;
+    --color-secondary-white: #e4e4e4;
+    --color-secondary-white-hover: #e9e9e9;
+    --color-primary-black: #3a3d3e;
+
+    --color-border-light: #cecece;
+
+    --color-chart-orange: #f4a261;
+    --color-chart-green: #2a9d8f;
+    --color-chart-purple: #6c63a8;
+}
+
+@theme {
+    --shadow-sidebar: 0px 0px 20px #33333378;
+    --shadow-header-table: 0px 10px 12px 0px #2424243d;
+}
+
+.sidebar-menu {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.ant-table-row-level-1 {
+    background-color: var(--color-secondary-white) !important;
+}
+
+.ant-table-header {
+    box-shadow: var(--shadow-header-table);
+}
+
+.chart-collapser .ant-collapse-header {
+    align-items: center !important;
+}
+
+.statistic-item .ant-statistic-title {
+    text-wrap: nowrap;
+}
